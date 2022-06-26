@@ -9,7 +9,7 @@
 #
 # usando o laço while:
 # entrada de dados
-
+continuar = True # Inicializa a variável de continuidade com True
 while continuar:
     valor1 = int(input("Digite o 1º valor: "))
     valor2 = int(input("Digite o 2º valor: "))
