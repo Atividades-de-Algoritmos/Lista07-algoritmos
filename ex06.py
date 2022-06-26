@@ -2,8 +2,9 @@
 #
 # autores:
 # Emanuel Franklyn
-# 
-# data: 25/06/2022
+# Michel Silva 
+#
+# data: 26/06/2022
 #
 # 6. Faça um programa algoritmo para exibir a tabuada de 1 a 10.
 
