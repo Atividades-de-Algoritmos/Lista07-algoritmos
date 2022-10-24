@@ -20,3 +20,22 @@ for i in range(1, 11): # Laço que percorre os números de 1 a 10 (n+1)
 # saída de dados
 print(f"A média é: {soma/10}") # Imprime a média de todos os valores lidos
 print("Fim do programa")
+
+
+###########################################################
+#
+# outra forma
+
+media = 0
+soma = 0
+quantidade = 1
+
+while quantidade <= 5:    
+  valor = int(input(f"informe o valor[{quantidade}]"))
+  if valor > 0:
+    soma += valor
+    quantidade += 1
+
+media = soma / quantidade
+# saida
+print(f"a média foi: {media}")
