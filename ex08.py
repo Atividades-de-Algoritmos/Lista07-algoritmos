@@ -48,3 +48,28 @@ while i <= 1000: # Laço que percorre os números de 1 a 1000 (n+1)
 print(f"A soma dos números pares é: {soma_pares}") # Imprime a soma dos números pares de todos os valores lidos
 print(f"A soma dos números ímpares é: {soma_impares}") # Imprime a soma dos números ímpares de todos os valores lidos
 print("Fim do programa")
+
+
+
+print("----------------------------------------------------")
+# usando o laço while:
+# entrada de dados
+
+# versão final
+somaPar = 0
+somaImpar = 0
+
+valor = 0
+while (valor >= 0 and valor <= 1000):
+  valor = int(input("informe um valor: "))
+  if (valor >= 0 and valor <= 1000):
+    if (valor % 2 == 0):
+      somaPar += valor
+    elif (valor % 2 != 0):
+      somaImpar += valor
+  else:
+    print(f"foi informado {valor}, saindo do laço de repetição")
+    break
+
+print(f"soma pares ={somaPar} e soma impares ={somaImpar}")
+
