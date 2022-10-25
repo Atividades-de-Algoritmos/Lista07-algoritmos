@@ -11,6 +11,7 @@
 for i in range(1000, 2000): # Laço que percorre os números de 1000 a 1999 (n+1)
     if i % 11 == 5: # Se o resto da divisão por 11 do número lido for 5
         print(i) # Imprime o número lido
+        # print(i, ' ', end='')
 
 # saída de dados
 print("Fim do programa")
